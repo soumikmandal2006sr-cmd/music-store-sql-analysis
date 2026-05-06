@@ -2,61 +2,116 @@
 
 ## 📌 Project Overview
 
-This project analyzes a music store database using SQL to solve real-world business questions related to customer behavior, sales, and music trends.
+This project analyzes a digital music store database using SQL to solve real-world business questions.
+It covers customer behavior, sales trends, and music preferences across countries.
+
+---
 
 ## 🧠 Problem Statement
 
-The goal is to extract meaningful insights from a relational database containing multiple interconnected tables such as customers, invoices, tracks, and genres.
+Given a relational database with multiple interconnected tables, the goal is to extract meaningful insights such as:
+
+* Who are the top customers?
+* Which genres and artists are most popular?
+* How does spending vary across countries?
+
+---
 
 ## 📊 Dataset Description
 
-* 11 tables (Customer, Invoice, InvoiceLine, Track, Genre, Artist, Album, etc.)
-* Data stored in CSV format
-* Represents a digital music store
+* 11 tables (CSV format)
+* Key tables:
+
+  * Customer
+  * Invoice
+  * InvoiceLine
+  * Track
+  * Genre
+  * Artist
+  * Album
+* Includes relationships via primary and foreign keys
+
+---
 
 ## ❓ Questions Solved
 
-* Easy: 5
-* Moderate: 3
-* Advanced: 3
-
-Examples:
+### 🟢 Easy (5)
 
 * Identify Rock music listeners
-* Find top-selling artists
-* Determine most popular genre per country
-* Calculate customer spending patterns
+* Find top customers
+* Basic filtering and sorting queries
+
+### 🟡 Moderate (3)
+
+* Most popular genre by country
+* Artist-level analysis
+* Aggregations with joins
+
+### 🔴 Advanced (3)
+
+* Customer spending on top artist
+* Top customer per country
+* Complex queries using CTEs and window functions
+
+---
 
 ## 🛠️ Skills & Concepts Used
 
 * SQL Joins (INNER JOIN)
-* Aggregations (SUM, COUNT)
+* Aggregations (SUM, COUNT, AVG)
 * Subqueries
 * Common Table Expressions (CTE)
 * Window Functions (ROW_NUMBER, RANK)
+* Data filtering and grouping
+
+---
 
 ## 📁 Project Structure
 
-* `/data` → Dataset (CSV files)
-* `/queries` → SQL queries
+```plaintext
+music-store-sql-analysis/
+│
+├── data/        → CSV dataset (11 tables)
+├── queries/     → SQL queries (easy, moderate, advanced)
+├── schema_diagram.png
+├── README.md
+```
+
+---
 
 ## 💡 Key Insights
 
-* Rock music dominates purchases in multiple countries
-* Certain artists contribute significantly to total revenue
-* Customer spending patterns vary across regions
+* 🎸 Rock music is one of the most purchased genres across multiple countries
+* 💰 A small number of artists contribute to a large portion of total revenue
+* 🌍 Customer spending patterns vary significantly by country
+* 🧾 Invoice-level data is crucial for accurate revenue analysis
+
+---
 
 ## 🚀 How to Use
 
-1. Import CSV files into your SQL database
-2. Run queries from the queries folder
-3. Analyze outputs
+1. Import CSV files into your SQL database (MySQL/PostgreSQL)
+2. Run queries from the `/queries` folder
+3. Analyze outputs and modify queries for deeper insights
+
+---
 
 ## 📈 Learning Outcome
 
-This project helped me build a strong foundation in:
+Through this project, I developed:
 
-* Relational database understanding
-* Writing optimized SQL queries
-* Solving business problems using data
+* Strong understanding of relational databases
+* Ability to write optimized SQL queries
+* Practical experience solving business problems using data
 
+---
+
+## 🔗 Project Link
+
+👉 https://github.com/soumikmandal2006sr-cmd/music-store-sql-analysis
+
+---
+
+## 🙌 Connect with Me
+
+If you found this project interesting or have suggestions, feel free to connect!
