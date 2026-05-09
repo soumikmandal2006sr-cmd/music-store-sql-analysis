@@ -115,3 +115,4 @@ Through this project, I developed:
 ## 🙌 Connect with Me
 
 If you found this project interesting or have suggestions, feel free to connect!
+LinkedIn : https://www.linkedin.com/in/soumik-mandal-9b40a9326/
